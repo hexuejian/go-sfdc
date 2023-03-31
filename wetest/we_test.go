@@ -19,10 +19,10 @@ func TestNewPasswordLogin(t *testing.T) {
 	testLoginUri := "https://test.salesforce.com"
 	cred := credentials.PasswordCredentials{
 		URL:          testLoginUri,
-		Username:     "yuan.jiang@anyue.net.fullbox",
-		Password:     "EasyTM_2018zxZRQgByvV1P5hzPUsqrnM8si",
-		ClientID:     "3MVG9Y6d_Btp4xp6bypxI7YjObo.F2N9b4EwQt4GgCkh_lQmYPCFW_yp_hKeOAjERqpMt4.GUZYgJOwUVhH1K",
-		ClientSecret: "1216742033804660031",
+		Username:     "********",
+		Password:     "********",
+		ClientID:     "********",
+		ClientSecret: "********",
 	}
 
 	creds, err := credentials.NewPasswordCredentials(cred)
